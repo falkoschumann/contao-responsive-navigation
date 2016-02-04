@@ -1,0 +1,13 @@
+<?php
+$GLOBALS['TL_CSS'][] = 'system/modules/responsive-navigation/assets/responsive-navigation.css';
+?>
+
+<script>
+  jQuery(document).ready(function($) {
+    $('#mainmenu').prepend('<div id="mainmenu-icon">&#9776;</div>');
+    $('#mainmenu-icon').on('click', function() {
+      $('#mainmenu ul').slideToggle();
+      $(this).toggleClass('active');
+    });
+  });
+</script>
