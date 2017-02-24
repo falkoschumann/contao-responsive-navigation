@@ -3,7 +3,7 @@
 /**
  * Responsive Navigation Extension for Contao
  *
- * Copyright (c) 2016 Falko Schumann
+ * Copyright (c) 2017 Falko Schumann
  *
  * @package  ResponsiveNavigation
  * @link     https://github.com/falkoschumann/contao-responsive-navigation
