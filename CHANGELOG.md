@@ -12,7 +12,7 @@ project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Added
 
-*   ...
+*   Click outside menu close it.
 
 
 [1.0.0] - 2016-02-04
