@@ -15,8 +15,8 @@ project adheres to [Semantic Versioning](http://semver.org/).
 *   ...
 
 
-[v1.0.0] - 2016-02-04
----------------------
+[1.0.0] - 2016-02-04
+--------------------
 
 ### Added
 
