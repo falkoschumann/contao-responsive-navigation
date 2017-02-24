@@ -13,10 +13,11 @@ displays.
 Usage
 -----
 
-1.  Enable jQuery and add *j_responsive_navigation* template to your layout.
+1.  Enable jQuery and add _j_responsive_navigation_ template to your layout.
 2.  Set CSS id `mainmenu` to your navigation module.
 3.  Style your responsive mobile menu.
 
+![Enabled jQuery and added responsive navigation template](screenshot.jpg)
 
 Theme
 -----
@@ -27,7 +28,7 @@ The following code shows a snippet of a menu.
         <div id="mainmenu-icon">&#9776;</div>
         <a href="#skipNavigation109" class="invisible">Skip navigation</a>
         <ul class="level_1" role="menubar">
-            [...]
+            <li>[...]</li>
         </ul>
         <a id="skipNavigation109" class="invisible">&nbsp;</a>
     </nav>
