@@ -4,10 +4,42 @@ $GLOBALS['TL_CSS'][] = 'system/modules/responsive-navigation/assets/responsive-n
 
 <script>
   jQuery(document).ready(function($) {
+    var $menu = $('#mainmenu ul');
+    var menuVisible = $menu.is(":visible");
+
     $('#mainmenu').prepend('<div id="mainmenu-icon">&#9776;</div>');
-    $('#mainmenu-icon').on('click', function() {
-      $('#mainmenu ul').slideToggle();
-      $(this).toggleClass('active');
+    $('#mainmenu-icon').on('click', function() {      
+      toggleMenu();
     });
+
+    $(document).click(function(mouseEvent) {
+      if (menuVisible && !isInsideMenu(mouseEvent)) {
+        closeMenu();
+      }
+    });
+
+    function toggleMenu() {
+      $menu.slideToggle({
+        complete: function() {
+          menuVisible = !menuVisible;
+        }
+      });
+      $(this).toggleClass('active');
+    }
+
+    function closeMenu() {
+      $menu.slideUp({
+        complete: function() {
+          menuVisible = false
+        }
+      });
+      $(this).toggleClass('active');
+    }
+
+    function isInsideMenu(mouseEvent) {
+      var offset = $menu.offset();
+      return mouseEvent.pageX > offset.left && mouseEvent.pageX < offset.left + $menu.width() 
+            && mouseEvent.pageY > offset.top && mouseEvent.pageY < offset.top + $menu.height();
+    }
   });
 </script>
