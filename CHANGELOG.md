@@ -7,16 +7,16 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this
 project adheres to [Semantic Versioning](http://semver.org/).
 
 
-[Unreleased]
-------------
+[1.1.0] - 2017-02-25
+--------------------
 
 ### Added
 
 *   Click outside menu close it.
 
 
-[1.0.0] - 2016-02-04
---------------------
+1.0.0 - 2016-02-04
+------------------
 
 ### Added
 
@@ -25,5 +25,4 @@ project adheres to [Semantic Versioning](http://semver.org/).
 *   Toggle mobile menu.
 
 
-[Unreleased]: https://github.com/falkoschumann/contao-responsive-navigation/compare/v1.0.0...develop
-[1.0.0]: https://github.com/falkoschumann/contao-responsive-navigation/tree/v1.0.0
+[1.1.0]: https://github.com/falkoschumann/contao-responsive-navigation/compare/v1.0.0...v1.1.0
