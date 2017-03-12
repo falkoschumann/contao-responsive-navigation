@@ -7,6 +7,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this
 project adheres to [Semantic Versioning](http://semver.org/).
 
 
+[1.1.1] - 2017-03-12
+--------------------
+
+### Fixed
+
+*   Click on background slided desktop menu (Fixes #1).
+
+
 [1.1.0] - 2017-02-25
 --------------------
 
@@ -25,4 +33,5 @@ project adheres to [Semantic Versioning](http://semver.org/).
 *   Toggle mobile menu.
 
 
+[1.1.1]: https://github.com/falkoschumann/contao-responsive-navigation/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/falkoschumann/contao-responsive-navigation/compare/v1.0.0...v1.1.0
