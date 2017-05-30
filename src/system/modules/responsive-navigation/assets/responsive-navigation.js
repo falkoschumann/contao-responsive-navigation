@@ -1,6 +1,6 @@
 jQuery(document).ready(function ($) {
   var $menu = $('#mainmenu')
-  var $menuBar = $('#mainmenu ul[role=menubar]')
+  var $menuBar = $('#mainmenu > ul')
 
   // Add menu icon
   $menu.prepend('<div id="mainmenu-icon">&#9776;</div>')
