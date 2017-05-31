@@ -34,5 +34,5 @@ The following code shows a snippet of a menu.
     </nav>
 
 The supplied CSS hides the mobile menu icon `#mainmenu-icon` on desktop and hide
-the menu `#mainmenu ul` on mobile devices. The supplied JavaScript toggle the
-menu `#mainmenu ul` on mobile devices.
+the menu `#mainmenu > ul` on mobile devices. The supplied JavaScript toggle the
+menu `#mainmenu > ul` on mobile devices.

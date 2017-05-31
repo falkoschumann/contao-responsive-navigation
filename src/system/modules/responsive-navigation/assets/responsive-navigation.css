@@ -1,1 +1,27 @@
-@media screen and (min-width:767px){#mainmenu-icon{display:none}#mainmenu ul{display:block!important}}@media screen and (max-width:767px){#mainmenu-icon{display:inline-block;cursor:pointer}#mainmenu ul{top:0;position:absolute;display:none;z-index:10000}}
+@media screen and (min-width: 768px) {
+
+    #mainmenu-icon {
+        display: none;
+    }
+
+    #mainmenu > ul {
+        display: block !important;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    #mainmenu-icon {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    #mainmenu > ul {
+        top: 0;
+        position: absolute;
+        display: none;
+        z-index: 10000;
+    }
+
+}
