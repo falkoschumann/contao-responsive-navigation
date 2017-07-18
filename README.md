@@ -27,7 +27,7 @@ The following code shows a snippet of a menu.
     <nav class="mod_navigation block" id="mainmenu">
         <div id="mainmenu-icon">&#9776;</div>
         <a href="#skipNavigation109" class="invisible">Skip navigation</a>
-        <ul class="level_1" role="menubar">
+        <ul class="level_1">
             <li>[...]</li>
         </ul>
         <a id="skipNavigation109" class="invisible">&nbsp;</a>
